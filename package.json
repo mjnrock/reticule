@@ -1,0 +1,13 @@
+{
+  "name": "reticule",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Matt Nawrocki <mjnrock@umich.edu>",
+  "license": "NONE",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "serialport": "^9.0.6"
+  }
+}
