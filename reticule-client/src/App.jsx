@@ -43,8 +43,11 @@ function App() {
                 ref={ imgRef }
                 alt="stream"
                 src={ `http://${ host }:${ port }/stream` }
+                hidden
             />
             <canvas
+                width={ 640 }
+                height={ 480 }
                 ref={ canvasRef }
             />
 
